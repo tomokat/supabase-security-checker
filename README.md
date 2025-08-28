@@ -34,12 +34,12 @@ A simple Node.js script to quickly check if a Supabase table is publicly accessi
 
 ## Usage
 
-Run the script from your terminal, passing the name of the table you want to check as an argument.
+Run the script from your terminal, passing the name of the table you want to check as an argument. You can also provide an optional count to limit the number of records returned in the output.
 
 You can run the script directly with `node`:
 
 ```bash
-node index.js <your_table_name>
+node index.js <your_table_name> [<count>]
 ```
 
 Alternatively, you can use the npm script:
